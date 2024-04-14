@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <!-- course uses 1.0.3 -->
+    <PackageReference Include="flunt" Version="2.0.5" />
+  </ItemGroup>
+
 </Project>
