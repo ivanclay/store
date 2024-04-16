@@ -17,6 +17,8 @@ public class CreateOrderCommandTests
         command.Items.Add(new CreateOrderItemCommand(Guid.NewGuid(), 1));
         command.Items.Add(new CreateOrderItemCommand(Guid.NewGuid(), 1));
 
+        command.Validate();
+
         Assert.AreEqual(command.IsValid, false);
     }
 }
