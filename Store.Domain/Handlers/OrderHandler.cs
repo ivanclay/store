@@ -4,6 +4,7 @@ using Store.Domain.Commands.Interfaces;
 using Store.Domain.Entities;
 using Store.Domain.Handlers.Interface;
 using Store.Domain.Repositories;
+using Store.Domain.Utils;
 
 namespace Store.Domain.Handlers;
 public class OrderHandler : Notifiable<Notification>, IHandler<CreateOrderCommand>
